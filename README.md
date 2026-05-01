@@ -1,6 +1,19 @@
-# Repository Initialized
+# Simple French App (Flutter)
 
-This repository was automatically initialized by Kavia AI system.
-Branch: kavia-main-8458
-Original requested branch: main
-Timestamp: 2026-05-01 13:13:33 UTC
+This repository contains the **Simple French** Flutter app in:
+
+- `simplefrenchapp--242409/`
+
+## Run web preview on port 3000
+```bash
+cd simplefrenchapp--242409
+flutter pub get
+flutter run -d web-server --web-hostname 0.0.0.0 --web-port 3000
+```
+
+## Build web
+```bash
+cd simplefrenchapp--242409
+flutter pub get
+flutter build web --release
+```
